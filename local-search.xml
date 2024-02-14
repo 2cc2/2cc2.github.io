@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Obsidian</title>
+    <link href="/2024/02/15/Obsidian/"/>
+    <url>/2024/02/15/Obsidian/</url>
+    
+    <content type="html"><![CDATA[<p>大一下载下不出，大三还是来补了坑。</p><h2 id="主要目的"><a href="#主要目的" class="headerlink" title="主要目的"></a>主要目的</h2><ol><li>做笔记（永远在找记笔记的软件obsidian-&gt;vscode-&gt;obsidian,做不做笔记再说</li><li>弥补一下大一错过的遗憾</li><li>尝试一下双向链接是不是真的好（记得一次晚上回宿舍，dw和tlbro提到</li></ol><h2 id="食用方案"><a href="#食用方案" class="headerlink" title="食用方案"></a>食用方案</h2><p>Obsidian(链接)+Notion(实际写的地方)+远程同步+pad(看)(苹果直接搞，安卓找Googleplay的镜像)</p><h2 id="具体使用"><a href="#具体使用" class="headerlink" title="具体使用"></a>具体使用</h2><h3 id="Nation"><a href="#Nation" class="headerlink" title="Nation"></a>Nation</h3><h3 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h3><h3 id="远程同步"><a href="#远程同步" class="headerlink" title="远程同步"></a>远程同步</h3><h3 id="pad"><a href="#pad" class="headerlink" title="pad"></a>pad</h3>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>do something</title>
     <link href="/2024/02/15/TODO/"/>
     <url>/2024/02/15/TODO/</url>
@@ -18,8 +37,8 @@
   
   <entry>
     <title>Remake</title>
-    <link href="/2024/02/14/hello-world/"/>
-    <url>/2024/02/14/hello-world/</url>
+    <link href="/2024/02/14/Remake/"/>
+    <url>/2024/02/14/Remake/</url>
     
     <content type="html"><![CDATA[<p>因为没有保存源码就重装系统所以Remake了。。。。</p>]]></content>
     
