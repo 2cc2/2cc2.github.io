@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title>杂记</title>
+    <link href="/2024/02/26/%E6%9D%82%E8%AE%B0/"/>
+    <url>/2024/02/26/%E6%9D%82%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="深度模型水印"><a href="#深度模型水印" class="headerlink" title="深度模型水印"></a>深度模型水印</h1><h2 id="水印分类"><a href="#水印分类" class="headerlink" title="水印分类"></a>水印分类</h2><h3 id="白盒"><a href="#白盒" class="headerlink" title="白盒"></a>白盒</h3><p>模型公开部分代码参数。</p><h3 id="黑盒"><a href="#黑盒" class="headerlink" title="黑盒"></a>黑盒</h3><p>模型不公开通过特殊指令生成特殊输出来验证，一般是通过构造触发集生成结果具有哈希的单向性，抵抗混淆攻击。</p><h3 id="无盒"><a href="#无盒" class="headerlink" title="无盒"></a>无盒</h3><p>模型不在场进行验证，输出中自带水印。</p><h2 id="水印作用"><a href="#水印作用" class="headerlink" title="水印作用"></a>水印作用</h2><p>版权问题防止模型窃取。</p><h2 id="多媒体水印，AIGC，模型水印区别"><a href="#多媒体水印，AIGC，模型水印区别" class="headerlink" title="多媒体水印，AIGC，模型水印区别"></a>多媒体水印，AIGC，模型水印区别</h2><h1 id="AIOT"><a href="#AIOT" class="headerlink" title="AIOT"></a>AIOT</h1><h2 id="音频攻击"><a href="#音频攻击" class="headerlink" title="音频攻击"></a>音频攻击</h2><p>记不清了（晕了已经</p><h1 id="人工智能攻防关键技术研究"><a href="#人工智能攻防关键技术研究" class="headerlink" title="人工智能攻防关键技术研究"></a>人工智能攻防关键技术研究</h1><h2 id="模型后门检测"><a href="#模型后门检测" class="headerlink" title="模型后门检测"></a>模型后门检测</h2><p>通过特定像素区域的差分计算获得trigger和mask好像是用来还原图片的(直接变换的方式)<br>融合的那部分忘了。。。</p><h2 id="模型探知"><a href="#模型探知" class="headerlink" title="模型探知"></a>模型探知</h2><p>对抗样本在同模型下具有相同效果，准确率相差不大，通过设置对抗样本进行对方模型的目标检测。</p><h2 id="模型训练数据删除"><a href="#模型训练数据删除" class="headerlink" title="模型训练数据删除"></a>模型训练数据删除</h2><p>通过空间换时间，设置还原点训练模型，但是只用在了一般的模型上举例的是线性模型，决策树，和神经网络。但是大模型在实际可行性上不可行。<br>可以用于主动和被动遗忘。</p><h1 id="人工智能大模型运用"><a href="#人工智能大模型运用" class="headerlink" title="人工智能大模型运用"></a>人工智能大模型运用</h1><p>通过训练模型实现辅助性工具和模型训练开发环境，以及知识库bot。</p><h1 id="恶意安全秘密共享混洗协议"><a href="#恶意安全秘密共享混洗协议" class="headerlink" title="恶意安全秘密共享混洗协议"></a>恶意安全秘密共享混洗协议</h1><h1 id="LDR-内核听不懂一点"><a href="#LDR-内核听不懂一点" class="headerlink" title="LDR(内核听不懂一点)"></a>LDR(内核听不懂一点)</h1><h2 id="孪生驱动"><a href="#孪生驱动" class="headerlink" title="孪生驱动"></a>孪生驱动</h2><p>孪生驱动就听懂了个沙箱隔离放到SeCore中同时降低对TCB的影响，确保安全内核轻量。普通系统和安全系统的一个孪生应该是这个意思。</p><h1 id="隐私定义？"><a href="#隐私定义？" class="headerlink" title="隐私定义？"></a>隐私定义？</h1><p>主观上的概念，主要是看数据对于一些用户是重要的是私密的，但在应用层面，在一定的应用场景下是需要让出一定的隐私信息获取相当的权益的实际上，这种观点认为隐私并不是说对于数据的绝对保密，而是动态的随着不同应用场景和权力需要进行的主观划分。（那意思不就是在一定的应用场景下对认为原来隐私的数据不是隐私的？？？我绷，隐私保护感觉变成了信任问题。。</p><h1 id="差分隐私度量问题？"><a href="#差分隐私度量问题？" class="headerlink" title="差分隐私度量问题？"></a>差分隐私度量问题？</h1><p>密码学100%,联邦学习差分隐私比较低，TE在中间。。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Obsidian</title>
     <link href="/2024/02/15/Obsidian/"/>
     <url>/2024/02/15/Obsidian/</url>
     
-    <content type="html"><![CDATA[<p>大一下载下不出，大三还是来补了坑。</p><h2 id="主要目的"><a href="#主要目的" class="headerlink" title="主要目的"></a>主要目的</h2><ol><li>做笔记（永远在找记笔记的软件obsidian-&gt;vscode-&gt;obsidian,做不做笔记再说</li><li>弥补一下大一错过的遗憾</li><li>尝试一下双向链接是不是真的好（记得一次晚上回宿舍，dw和tlbro提到</li></ol><h2 id="食用方案"><a href="#食用方案" class="headerlink" title="食用方案"></a>食用方案</h2><p>Obsidian(笔记)+Notion(规划做表格)+远程同步+pad(看)(苹果直接搞，安卓找Googleplay的镜像)</p><h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><h3 id="Nation"><a href="#Nation" class="headerlink" title="Nation"></a>Nation</h3><p>下载即用的好软件内容丰富，感觉可以发展为工具箱（之前小用过一段时间打开发现东西还在）需要登陆。<br>奇怪的是看推荐数据库功能很好用（待填坑）</p><h3 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h3><p>进来新建文件夹构建完，新建文件发现就是在根目录下，感觉不对劲。肤浅了，格局打开不需要管理自动建立链接才是它的优点。现在使用的#tag标记功能已经感觉到爽感了。打算先写一阵子再更行使用体验。</p><h3 id="远程同步"><a href="#远程同步" class="headerlink" title="远程同步"></a>远程同步</h3><p>需求上来说暂时还不需要，obsidian本身是离线的（懒</p><h3 id="pad"><a href="#pad" class="headerlink" title="pad"></a>pad</h3><p>安装了还没咋用过。。。。</p>]]></content>
+    <content type="html"><![CDATA[<p>大一下载下不出，大三还是来补了坑。</p><h2 id="主要目的"><a href="#主要目的" class="headerlink" title="主要目的"></a>主要目的</h2><ol><li>做笔记（永远在找记笔记的软件obsidian-&gt;vscode-&gt;obsidian,做不做笔记再说</li><li>弥补一下大一错过的遗憾</li><li>尝试一下双向链接是不是真的好（记得一次晚上回宿舍，dw和tlbro提到</li></ol><h2 id="食用方案"><a href="#食用方案" class="headerlink" title="食用方案"></a>食用方案</h2><p>Obsidian(笔记)+远程同步+pad(看)</p><h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><h3 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h3><p>进来新建文件夹构建完，新建文件发现就是在根目录下，感觉不对劲。肤浅了，格局打开不需要管理自动建立链接才是它的优点。现在使用的#tag标记功能已经感觉到爽感了。打算先写一阵子再更行使用体验。</p><h3 id="远程同步"><a href="#远程同步" class="headerlink" title="远程同步"></a>远程同步</h3><p>需求上来说暂时还不需要，obsidian本身是离线的（懒</p><h3 id="pad"><a href="#pad" class="headerlink" title="pad"></a>pad</h3><p>安装了还没咋用过。。。。</p>]]></content>
     
     
     
@@ -40,7 +53,7 @@
     <link href="/2024/02/14/Remake/"/>
     <url>/2024/02/14/Remake/</url>
     
-    <content type="html"><![CDATA[<p>因为没有保存源码就重装系统所以Remake了。。。。</p>]]></content>
+    <content type="html"><![CDATA[<p>因为没有保存源码，重装系统所以remake了。。。。</p>]]></content>
     
     
     
